@@ -5,7 +5,7 @@ import numpy as np
 import xgboost
 from xgboost import XGBRegressor
 import pandas as pd
-pipe = pickle.load(open('pipe.pkl','rb'))
+pipe = pickle.load(open('pipe_01.pkl','rb'))
 
 teams = ['Australia',
  'India',
