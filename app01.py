@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
+import sklearn.pipeline
+import sklearn.preprocessing
 
 # Load the trained model pipeline
 pipe = pickle.load(open('pipe_01.pkl', 'rb'))  # updated file path
